@@ -33,8 +33,41 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Level 2: PM escalates to Product Lead and dependent teams
 - Level 3: Sponsor-level escalation for business-impacting issues
 
+## Daily Standup Template
+Each team member shares:
+- **Yesterday**: What did I complete?
+- **Today**: What am I working on?
+- **Blockers**: What's preventing progress?
+- **Dependencies**: Do I need anything from teammates?
+
+Keep updates brief (2 minutes max per person). Document blockers in project board for tracking.
+
+## Sprint Review/Demo Template
+**Sprint Goal**: [What was the sprint objective?]
+
+**Completed Work**:
+- [Story/Feature 1]: Brief demo and acceptance criteria met
+- [Story/Feature 2]: Brief demo and acceptance criteria met
+
+**Incomplete Work**:
+- [Story/Feature X]: Current status and reason (to be carried over or re-prioritized)
+
+**Metrics**:
+- Velocity: [X story points completed]
+- Burndown: [On track / Behind]
+- Quality: [Test coverage, defects found/fixed]
+
+**Feedback**: [Stakeholder input and questions]  
+**Next Sprint Preview**: [What's coming up next]
+
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
-- [ ] Regular demos scheduled
+- [ ] Regular demos scheduled (sprint reviews, milestone showcases)
 - [ ] Risk register updated weekly
+- [ ] Deployment pipeline and environments ready
+- [ ] Monitoring and alerting configured for key metrics
+- [ ] Documentation updated alongside feature development
+- [ ] Design assets and specs accessible to developers
+- [ ] Test automation integrated into CI/CD pipeline
+- [ ] Team velocity and burndown tracked in project board
